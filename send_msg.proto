@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+message Mensagem {
+  bytes payload = 1;
+}
+
+message Confirmacao {
+  int32 msgLen = 1;
+  google.protobuf.Timestamp timeStamp = 2;
+}
+
+service SendMsg {
+    rpc Enviar(Mensagem) returns (Confirmacao);
+}
