@@ -1,0 +1,12 @@
+[project]
+name = "experimento-grpc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google>=3.0.0",
+    "grpcio>=1.60.0",
+    "grpcio-tools>=1.60.0",
+    "protobuf<7.0.0",
+]
