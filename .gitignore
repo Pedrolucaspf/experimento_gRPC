@@ -1,0 +1,17 @@
+# Virtual environment (created by uv)
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated gRPC Python files (Optional but recommended, 
+# as they should be generated from the .proto file)
+*_pb2.py
+*_pb2_grpc.py
+*_pb2.pyi
+
+# uv caches/tooling
+.uv/
